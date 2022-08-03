@@ -2,94 +2,114 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Softskill from "../../Assets/Projects/softSkills.jpg";
+import SpiritSwap from "../../Assets/Projects/spiritswap.png";
+import Drum from "../../Assets/Projects/Drum.png";
+import GeneWeb from "../../Assets/Projects/GeneWeb.png";
+import BreastCancer from "../../Assets/Projects/BreastCancer.jpg";
+import simonGame from "../../Assets/Projects/simonGame.png";
+import NFTGarage from "../../Assets/Projects/nftgarage.png"
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
+    <>
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            My Recent <strong className="purple">Works </strong>
+          </h1>
+          <p style={{ color: "white" }}>
+            Here are a few projects I've worked on recently.
+          </p>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={GeneWeb}
+                isBlog={false}
+                title="GeneWEB"
+                description="GeneWeb is a research tool website for young researchers that server as a link between the NCBI and the EBI. It includes implementations of the NCBI's enormous genome and proteome database as well as the EBI's Genome and proteome modification Tools. With a simple user interface and all the necessary packages in one location"
+                ghLink="https://github.com/soumyajit4419/Chatify"
+                demoLink="https://chatify-49.web.app/"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={simonGame}
+                isBlog={false}
+                title="Simon Game"
+                description="Simon Game forces you to scratch your temporary memory and pattern recognition, a simple and fun game made with HTML,CSS and Javascipt"
+                ghLink="https://github.com/sourabh7047/simonGame"
+                demoLink="https://sourabh7047.github.io/simonGame/"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={Drum}
+                isBlog={false}
+                title="Drum"
+                description="I like to play drum but I did not had one so I made one for me"
+                ghLink="https://github.com/sourabh7047/DrumGame"
+                demoLink="https://sourabh7047.github.io/DrumGame/"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={Softskill}
+                isBlog={false}
+                title="Plant AI"
+                description="A binary classification predictive model to see the impact of soft skills and values on acedemic success."
+                ghLink="https://github.com/sourabh7047/Human_Value_Soft_Skill_Classification"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-        </Row>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={BreastCancer}
+                isBlog={false}
+                title="Breast Cancer"
+                description="A The task was to classify the cancerous cell nuclei surface morphological dataset into benign and malignant tumors.implemented different binary classification algorithms, analyzed the performance through varies matrices result, and optimized them."
+                ghLink="https://github.com/sourabh7047/Breast_Cancer_Classification"
+              />
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
+
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            Some of the project on which I worked under <strong className="purple">Internship</strong>
+          </h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={SpiritSwap}
+                isBlog={false}
+                title="SpiritSWap"
+                description="SpiritSwap is a decentralized exchange (DEX) on the Fantom Opera Chain. SpiritSwap's design is based on the Uniswap constant-product automated market maker (AMM)."
+                ghLink="https://github.com/Layer3Org"
+                demoLink="https://www.spiritswap.finance/"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={NFTGarage}
+                isBlog={false}
+                title="NFTGarage"
+                description="A NFT Launchpad envisioning to bridge the gap between DeFi & NFTs with a parallel focus on supporting other innovative projects to grow by exposing them to our technology."
+                ghLink="https://github.com/NFTGarage/platform"
+                demoLink="https://nftgarage.world/"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </>
   );
 }
 

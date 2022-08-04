@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Digital_Portfolio/static/css/main.df4b30b2.css",
-    "main.js": "/Digital_Portfolio/static/js/main.7aba9df7.js",
+    "main.js": "/Digital_Portfolio/static/js/main.092cea7d.js",
     "static/js/787.5c0b2d12.chunk.js": "/Digital_Portfolio/static/js/787.5c0b2d12.chunk.js",
     "static/media/nftgarage.png": "/Digital_Portfolio/static/media/nftgarage.df7186461c22a74234d8.png",
     "static/media/spiritswap.png": "/Digital_Portfolio/static/media/spiritswap.968b1a80325367f8908e.png",
@@ -19,11 +19,11 @@
     "static/media/pre.svg": "/Digital_Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Digital_Portfolio/index.html",
     "main.df4b30b2.css.map": "/Digital_Portfolio/static/css/main.df4b30b2.css.map",
-    "main.7aba9df7.js.map": "/Digital_Portfolio/static/js/main.7aba9df7.js.map",
+    "main.092cea7d.js.map": "/Digital_Portfolio/static/js/main.092cea7d.js.map",
     "787.5c0b2d12.chunk.js.map": "/Digital_Portfolio/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df4b30b2.css",
-    "static/js/main.7aba9df7.js"
+    "static/js/main.092cea7d.js"
   ]
 }

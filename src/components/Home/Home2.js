@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import Particle from "../Particle";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -12,6 +13,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -32,13 +34,11 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Machine Learning and python
-                </b>
+                <b className="purple">Machine Learning and python</b>
               </i>
               <br />
-              <br />
-              I also like to combine differnet field and come up with an intutive result
+              <br />I also like to combine differnet field and come up with an
+              intutive result
             </p>
           </Col>
           <Col md={4} className="myAvtar">

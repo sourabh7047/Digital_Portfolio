@@ -8,19 +8,21 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiGoogleCloudPlatform,
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiFlask,
+  SiDjango,
+  SiDocker
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -37,7 +39,13 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
       </Col>
     </Row>
   );

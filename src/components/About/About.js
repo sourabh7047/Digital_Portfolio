@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Languages from "./Languages";
+import animatedVideo from "../../Assets/animated-cube.mp4"
 
 function About() {
   return (
@@ -28,12 +30,21 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "60px", paddingBottom: "80px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <video  width="500" height="500" autoplay="autoplay" loop muted>
+              <source src={animatedVideo} type="video/mp4"/>
+            </video>
+            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
           </Col>
         </Row>
+        <h1 className="project-heading">
+          <strong className="purple">Languages And Major Libraries </strong>I know
+        </h1>
+
+        <Languages/>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>

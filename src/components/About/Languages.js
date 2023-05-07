@@ -1,34 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiJira,
-  SiGooglecloud,
-  SiDocker
+  SiJava,
+  SiPython,
+  SiTensorflow,
+  SiJavascript
 } from "react-icons/si";
 
-function Toolstack() {
+function Languages() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecloud />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiJavascript />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Languages;

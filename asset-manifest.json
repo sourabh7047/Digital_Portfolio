@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Digital_Portfolio/static/css/main.df4b30b2.css",
-    "main.js": "/Digital_Portfolio/static/js/main.3cdb195e.js",
+    "main.css": "/Digital_Portfolio/static/css/main.e9f1d140.css",
+    "main.js": "/Digital_Portfolio/static/js/main.e36c5137.js",
     "static/js/787.5c0b2d12.chunk.js": "/Digital_Portfolio/static/js/787.5c0b2d12.chunk.js",
+    "static/media/animated-cube.mp4": "/Digital_Portfolio/static/media/animated-cube.ccbb073a5840c4863ba1.mp4",
     "static/media/nftgarage.png": "/Digital_Portfolio/static/media/nftgarage.df7186461c22a74234d8.png",
     "static/media/spiritswap.png": "/Digital_Portfolio/static/media/spiritswap.968b1a80325367f8908e.png",
     "static/media/Drum.png": "/Digital_Portfolio/static/media/Drum.bdde30a7e972743e430c.png",
@@ -11,19 +12,21 @@
     "static/media/home-main.svg": "/Digital_Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Digital_Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/softSkills.jpg": "/Digital_Portfolio/static/media/softSkills.31ace24ff643d58abef7.jpg",
+    "static/media/Genpact3.png": "/Digital_Portfolio/static/media/Genpact3.ae3519cf994261233644.png",
     "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/Digital_Portfolio/static/media/Soumyajit_Behera-BIT_MESRA.53cbdad696442b0642b9.pdf",
     "static/media/logo.png": "/Digital_Portfolio/static/media/logo.59511890324c06788d9b.png",
     "static/media/home-bg.jpg": "/Digital_Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/spiritswap.webp": "/Digital_Portfolio/static/media/spiritswap.7be75a857c41db301693.webp",
     "static/media/simonGame.png": "/Digital_Portfolio/static/media/simonGame.c16caf10c9ee46939047.png",
     "static/media/avatar.svg": "/Digital_Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/Digital_Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Digital_Portfolio/index.html",
-    "main.df4b30b2.css.map": "/Digital_Portfolio/static/css/main.df4b30b2.css.map",
-    "main.3cdb195e.js.map": "/Digital_Portfolio/static/js/main.3cdb195e.js.map",
+    "main.e9f1d140.css.map": "/Digital_Portfolio/static/css/main.e9f1d140.css.map",
+    "main.e36c5137.js.map": "/Digital_Portfolio/static/js/main.e36c5137.js.map",
     "787.5c0b2d12.chunk.js.map": "/Digital_Portfolio/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df4b30b2.css",
-    "static/js/main.3cdb195e.js"
+    "static/css/main.e9f1d140.css",
+    "static/js/main.e36c5137.js"
   ]
 }

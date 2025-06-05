@@ -13,7 +13,7 @@ function SecondInternship() {
       />
       <blockquote className="blockquote mb-0">
         <h3 className="purple">
-          <u className="white">Data Engineering Intern</u>{" "}
+          <u className="white">Software Development Intern</u>{" "}
         </h3>
         <p style={{ textAlign: "justify" }}>
           <span className="purple">Time: </span> 01/23 - current
@@ -51,11 +51,6 @@ function SecondInternship() {
           cloud infrastructure.
           <br />
         </p>
-
-        <p style={{ color: "rgb(155 126 172)" }}>
-          "Strive to build things that make a difference!"{" "}
-        </p>
-        <footer className="blockquote-footer">Sourabh</footer>
       </blockquote>
     </>
   );

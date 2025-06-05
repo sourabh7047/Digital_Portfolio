@@ -60,7 +60,7 @@ function Projects() {
               <ProjectCard
                 imgPath={Softskill}
                 isBlog={false}
-                title="Plant AI"
+                title="Softskill Importance Classification"
                 description="A binary classification predictive model to see the impact of soft skills and values on acedemic success."
                 ghLink="https://github.com/sourabh7047/Human_Value_Soft_Skill_Classification"
               />
@@ -69,10 +69,12 @@ function Projects() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={BreastCancer}
+                important={true}
                 isBlog={false}
-                title="Breast Cancer"
-                description="A The task was to classify the cancerous cell nuclei surface morphological dataset into benign and malignant tumors.implemented different binary classification algorithms, analyzed the performance through varies matrices result, and optimized them."
+                title="Breast Cancer - Research"
+                description="A The task was to classify the cancerous cell nuclei surface morphological dataset into benign and malignant tumors.implemented different binary classification algorithms, analyzed the performance through varies matrices result, and optimized them. Published in 2024 11th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)"
                 ghLink="https://github.com/sourabh7047/Breast_Cancer_Classification"
+                demoLink="https://ieeexplore.ieee.org/document/10522209"
               />
             </Col>
           </Row>

@@ -565,6 +565,20 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.tech-text {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tech-heading {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;

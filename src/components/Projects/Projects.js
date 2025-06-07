@@ -9,6 +9,7 @@ import GeneWeb from "../../Assets/Projects/GeneWeb.png";
 import BreastCancer from "../../Assets/Projects/BreastCancer.jpg";
 import simonGame from "../../Assets/Projects/simonGame.png";
 import NFTGarage from "../../Assets/Projects/nftgarage.png"
+import HireGenius from "../../Assets/Projects/HireGenius.png";
 
 function Projects() {
   return (
@@ -75,6 +76,17 @@ function Projects() {
                 description="A The task was to classify the cancerous cell nuclei surface morphological dataset into benign and malignant tumors.implemented different binary classification algorithms, analyzed the performance through varies matrices result, and optimized them. Published in 2024 11th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)"
                 ghLink="https://github.com/sourabh7047/Breast_Cancer_Classification"
                 demoLink="https://ieeexplore.ieee.org/document/10522209"
+              />
+            </Col>
+            
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={HireGenius}
+                important={true}
+                isBlog={false}
+                title="HireGenius"
+                description="HireGenius is a job portal that streamlines recruitment with AI-driven resume screening and job matching. Technologies: Flask, LLMs, Celery, OIDC authentication, API rate limiting, PostgreSQL."
+                ghLink="https://github.com/sourabh7047/HireGenius"
               />
             </Col>
           </Row>

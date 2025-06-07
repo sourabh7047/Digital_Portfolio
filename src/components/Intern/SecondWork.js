@@ -4,7 +4,7 @@ import genpact from "../../Assets/Projects/Genpact3.png";
 
 function SecondInternship() {
   return (
-    <>
+    <div style={{marginTop: "1rem", marginBottom: "5rem"}}>
       <img
         src={genpact}
         style={{ width: 220, marginTop: "3rem", margin: "3rem", float: "left" }}
@@ -52,7 +52,7 @@ function SecondInternship() {
           <br />
         </p>
       </blockquote>
-    </>
+    </div>
   );
 }
 

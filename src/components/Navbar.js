@@ -93,7 +93,7 @@ function NavBar() {
                 <AiOutlineIdcard
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Intern
+                Experience
               </Nav.Link>
             </Nav.Item>
 

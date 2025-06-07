@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import FirstInternship from "./FirstInternship";
-import SecondInternship from "./SecondInternship";
+import FirstInternship from "./FirstWork";
+import SecondInternship from "./SecondWork";
+import ThirdWork from "./thirdwork";
 
 function InternCard() {
   return (
@@ -10,6 +11,7 @@ function InternCard() {
       <Card.Body>
         <FirstInternship />
         <SecondInternship />
+        <ThirdWork/>
       </Card.Body>
     </Card>
   );

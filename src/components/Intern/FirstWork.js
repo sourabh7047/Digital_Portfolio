@@ -15,7 +15,7 @@ function FirstInternship() {
 
       <blockquote className="blockquote mb-0">
         <h3 className="purple">
-          <u className="white">Full Stack Web Development Intern</u>{" "}
+          <u className="white">Frontend Development Intern</u>{" "}
         </h3>
         <p style={{ textAlign: "justify" }}>
           <span className="purple">Time: </span> 12/21 - 03/22

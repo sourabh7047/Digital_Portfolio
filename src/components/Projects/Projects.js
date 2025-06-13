@@ -30,8 +30,7 @@ function Projects() {
                 isBlog={false}
                 title="GeneWEB"
                 description="GeneWeb is a research tool website for young researchers that server as a link between the NCBI and the EBI. It includes implementations of the NCBI's enormous genome and proteome database as well as the EBI's Genome and proteome modification Tools. With a simple user interface and all the necessary packages in one location"
-                ghLink="https://github.com/soumyajit4419/Chatify"
-                demoLink="https://chatify-49.web.app/"
+                ghLink="https://github.com/sourabh7047/GeneWeb_1"
               />
             </Col>
 
